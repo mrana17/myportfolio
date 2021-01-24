@@ -11,7 +11,10 @@ $font-family-base: Arial;
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
-
+.card {
+  width: 200;
+  height: 400;
+}
 .row {
   width: 100%;
   height: 100%;
@@ -27,6 +30,14 @@ $font-family-base: Arial;
 }
 .card-text {
   color: black;
+}
+.circle {
+  border: 1px solid;
+  border-radius: 50%;
+  height: 100%;
+  background: white;
+  margin: -1px 10px 0 -1px;
+  float: left;
 }
 .footer {
   background-color: $primary;
