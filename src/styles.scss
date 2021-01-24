@@ -2,8 +2,9 @@
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 
 $body-bg: white;
-$body-color: #000;
+$body-color: black;
 $primary: rgb(255, 115, 105);
+$secondary: black;
 $font-family-base: Arial;
 
 // Include all Bootstrap
@@ -11,20 +12,26 @@ $font-family-base: Arial;
 
 // Add you custom CSS
 
-.fancy {
-  display: inline-block;
-  background: rgb(131, 58, 180);
-  background: linear-gradient(
-    90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(253, 29, 29, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
-  );
-  color: #fff;
-  padding: 0.5em;
-}
-
 .row {
   width: 100%;
   height: 100%;
+}
+.card-title {
+  color: black;
+}
+.card-body {
+  background-color: $primary;
+}
+.card-header {
+  background-color: $primary;
+}
+.card-text {
+  color: black;
+}
+.footer {
+  background-color: $primary;
+  padding: 20px 0;
+  color: black;
+  text-align: center;
+  grid-area: footer;
 }
